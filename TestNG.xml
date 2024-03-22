@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="BENZ-SUV-CARS"> 
+
+<listeners>
+<listener class-name="com.avengers.testng2.TestNGPractise3"/>
+</listeners>  
+<test name="UAT-AVENGERS">  
+
+<parameter name="a" value="Bangalore" />
+<parameter name="b" value="Chennai" />
+<parameter name="c" value="Hyderabad" />
+<parameter name="d" value="Kolkota" />
+<parameter name="e" value="Pune" />
+<parameter name="f" value="Kochi" />
+ <classes>  
+ <class name="com.avengers.testng2.TestNGPractise3"/> 
+  </classes>  
+  </test> 
+ </suite> 
